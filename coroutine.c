@@ -17,10 +17,10 @@
 #include <stdint.h>
 
 typedef struct coroutine{
-	int32_t used;
+	uint32_t used;
 	uint32_t n;
 	uint32_t id;
-	int32_t count;
+	uint32_t count;
 	time_t time;
 	time_t tic; 
 	time_t toc; 
