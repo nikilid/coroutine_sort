@@ -347,7 +347,7 @@ void file_merge(FILE* file[], int32_t n, FILE* foutput)
 	
 }
 
-int32_t
+int
 main(int32_t argc, char *argv[])
 {
 	/* First of all, create a stack for each coroutine. */
